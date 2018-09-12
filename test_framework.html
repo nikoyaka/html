@@ -5,10 +5,7 @@
         <!-- Bootstrap -->
         <link href="bootstrap.css" rel="stylesheet">
 		
-		<style>
-		.flex{		
-			display: flex;
-		}
+		<style>		
 		.elem { 
 			border: 1px solid #ccc;
 			width: 100px;
@@ -22,36 +19,42 @@
 		.wrap{
 			border: 1px grey solid;
 			padding-left: 20px;
+			padding-bottom: 20px;
 			margin-top: 20px;
 			maggin-left: 20px;
 		}
 		.end{
 			font-size: 20px;
 			text-align: center;
-		}
-		
+		}		
 		img{
 			width: 150px;
 			height: 150px;
 			padding: 5px;
 		}
-		   .text{
+		.text{
 			padding: 5px;
-		   }
-		   .title{		   
+		}
+		.title{		   
 		   font-size: 25px;
 		   background: darkseagreen;
 		   height: 30px;
 		   vertical-align: center;
 		   text-color: darkolivegreen;
-		   }
+		}		   
+		.description{
+				margin-left: 30px;
+				margin-right: 30px;
+				font-size: 16px;				
+		}
 	</style>
 		
 		
       </head>
       <body>
+	  <p class="description">1. This block demonstrates working with grid. Each block occupies a certain part of screen width depends of its size. </p>
 		  <div class="row ">
-				<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="col-lg-3 col-md-5 col-sm-12">
 					<div class="flex flex-column">
 					<div><p class="title">What is Coffee?</p></div>
 					<div class="clearfix">					
@@ -66,7 +69,7 @@
 					</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="col-lg-3 col-md-5 col-sm-12">
 					<div class="flex flex-column">
 					<div ><p class="title">What is Coffee?</p></div>
 					<div class="clearfix">					
@@ -81,7 +84,7 @@
 					</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="col-lg-3 col-md-5 col-sm-12">
 					<div class="flex flex-column">
 					<div><p class="title">What is Coffee?</p></div>
 					<div class="clearfix">					
@@ -97,6 +100,8 @@
 					</div>
 				</div>
 		</div>
+		
+		<p class="description">2. This block demonstrates working with flex.</p>
 		
 		<div class="row">
 			<div class="wrap">
@@ -146,13 +151,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<p class="end>End!!!</p>
-		</div>
-		
-
-
-
-
-	  
+			<p class="end">End!!!</p>
+		</div>	  
       </body>
     </html>
