@@ -1,0 +1,158 @@
+     <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Bootstrap</title>
+        <!-- Bootstrap -->
+        <link href="bootstrap.css" rel="stylesheet">
+		
+		<style>
+		.flex{		
+			display: flex;
+		}
+		.elem { 
+			border: 1px solid #ccc;
+			width: 100px;
+			height: 100px;
+			background: red;
+		}
+		.vertical{
+			height: 200px;
+			border: solid grey 2px;
+		}
+		.wrap{
+			border: 1px grey solid;
+			padding-left: 20px;
+			margin-top: 20px;
+			maggin-left: 20px;
+		}
+		.end{
+			font-size: 20px;
+			text-align: center;
+		}
+		
+		img{
+			width: 150px;
+			height: 150px;
+			padding: 5px;
+		}
+		   .text{
+			padding: 5px;
+		   }
+		   .title{		   
+		   font-size: 25px;
+		   background: darkseagreen;
+		   height: 30px;
+		   vertical-align: center;
+		   text-color: darkolivegreen;
+		   }
+	</style>
+		
+		
+      </head>
+      <body>
+		  <div class="row ">
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="flex flex-column">
+					<div><p class="title">What is Coffee?</p></div>
+					<div class="clearfix">					
+						<div class="pull-right img-block">
+							<img src="img/coffee_flower.jpg" >
+						</div>
+						<div class="text">
+							Coffee trees are pruned short to conserve their energy and aid in harvesting, but can grow to more than 30 feet (9 meters) high. 
+							Each tree is covered with green, waxy leaves growing opposite each other in pairs. Coffee cherries grow along the branches. 
+							Because it grows in a continuous cycle, it is not unusual to see flowers, green fruit and ripe fruit simultaneously on a single tree...
+						</div>							
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="flex flex-column">
+					<div ><p class="title">What is Coffee?</p></div>
+					<div class="clearfix">					
+						<div class="pull-right img-block">
+							<img src="img/coffee_flower.jpg" >
+						</div>
+						<div class="text">
+							Coffee trees are pruned short to conserve their energy and aid in harvesting, but can grow to more than 30 feet (9 meters) high. 
+							Each tree is covered with green, waxy leaves growing opposite each other in pairs. Coffee cherries grow along the branches. 
+							Because it grows in a continuous cycle, it is not unusual to see flowers, green fruit and ripe fruit simultaneously on a single tree...
+						</div>							
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="flex flex-column">
+					<div><p class="title">What is Coffee?</p></div>
+					<div class="clearfix">					
+						<div class="pull-right img-block">
+							<img src="img/coffee_flower.jpg" >
+						</div>
+						<div class="text">
+							Coffee trees are pruned short to conserve their energy and aid in harvesting, but can grow to more than 30 feet (9 meters) high. 
+							Each tree is covered with green, waxy leaves growing opposite each other in pairs. Coffee cherries grow along the branches. 
+							Because it grows in a continuous cycle, it is not unusual to see flowers, green fruit and ripe fruit simultaneously on a single tree...
+						</div>							
+					</div>
+					</div>
+				</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-10 col-md-11 col-sm-11 wrap">
+			<p>x-start</p>
+				<div class="flex x-start">
+				   <div class="elem"></div><div class="elem"></div><div class="elem"></div>
+				 </div>
+			</div>
+			<div class="col-lg-10 col-md-11 col-sm-11 wrap">
+				<p>x-end</p>
+				 <div class="flex x-end">
+				   <div class="elem">x-end</div><div class="elem"></div><div class="elem"></div>
+				 </div>
+			 </div>
+			 <div class="col-lg-10 col-md-11 col-sm-11 wrap">
+				<p>space-between</p>
+				<div class="flex space-between">
+					<div class="elem"></div><div class="elem"></div><div class="elem"></div>
+				</div>
+			</div>
+			<div class="col-lg-10 col-md-11 col-sm-11 wrap">
+				<p>y-center</p>
+			  <div class="flex y-center vertical">
+					<div class="elem"></div><div class="elem"></div><div class="elem"></div>
+				</div>
+			</div>
+			<div class="col-lg-10 col-md-11 col-sm-11 wrap">
+				<p>flex-row</p>
+				<div class="flex flex-row">
+					<div class="elem"></div><div class="elem"></div><div class="elem"></div>
+				</div>
+			</div>
+			<div class="col-lg-10 col-md-11 col-sm-11 wrap">
+				<p>flex-column</p>
+				<div class="flex flex-column">
+					<div class="elem"></div><div class="elem"></div><div class="elem"></div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="row ">
+			<div class="clearfix col-lg-10 col-md-11 col-sm-11 wrap">
+			<p>float</p>
+				<div class="elem pull-left"></div>
+				<div class="elem pull-left"></div>
+				<div class="elem pull-right"></div>
+			</div>
+		</div>
+		<div class="row">
+			<p class="end col-lg-10 col-md-11 col-sm-11">End!!!</p>
+		</div>
+		
+
+
+
+
+	  
+      </body>
+    </html>
