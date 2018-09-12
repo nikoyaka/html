@@ -5,7 +5,10 @@
         <!-- Bootstrap -->
         <link href="bootstrap.css" rel="stylesheet">
 		
-		<style>		
+		<style>
+		.flex{		
+			display: flex;
+		}
 		.elem { 
 			border: 1px solid #ccc;
 			width: 100px;
@@ -26,33 +29,41 @@
 		.end{
 			font-size: 20px;
 			text-align: center;
-		}		
+		}
+		
 		img{
 			width: 150px;
 			height: 150px;
 			padding: 5px;
 		}
-		.text{
+		   .text{
 			padding: 5px;
-		}
-		.title{		   
+		   }
+		   .title{		   
 		   font-size: 25px;
 		   background: darkseagreen;
 		   height: 30px;
 		   vertical-align: center;
 		   text-color: darkolivegreen;
-		}		   
-		.description{
+		   }
+		   
+		   .block{
+			height: 25px;
+			background: cyan;
+			border: solid 2px blue;
+		   }
+		   .description{
 				margin-left: 30px;
 				margin-right: 30px;
-				font-size: 16px;				
-		}
+				font-size: 16px;
+				
+		   }
 	</style>
 		
 		
       </head>
       <body>
-	  <p class="description">1. This block demonstrates working with grid. Each block occupies a certain part of screen width depends of its size. </p>
+	  <p class="description">1. This block demonstrates work with grid. Each block occupies a certain part of screen width depends of its size. </p>
 		  <div class="row ">
 				<div class="col-lg-3 col-md-5 col-sm-12">
 					<div class="flex flex-column">
@@ -151,7 +162,13 @@
 			</div>
 		</div>
 		<div class="row">
-			<p class="end">End!!!</p>
-		</div>	  
+			<p class="end col-lg-10 col-md-11 col-sm-11">End!!!</p>
+		</div>
+		
+
+
+
+
+	  
       </body>
     </html>
